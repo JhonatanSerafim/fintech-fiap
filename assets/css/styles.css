@@ -8,7 +8,7 @@
     --color-primary: #E25888;
     --color-white: #fff;
     --color-gray: #a8a8a8;
-    --color-blue: #005fa3;
+    --color-blue: #3A2A6B;
 }
 
 
@@ -86,11 +86,12 @@ a {
     color: var(--color-gray);
     font-weight: 400;
     font-size: 12px;
+    font-size: 16px;
 }
 
 a:hover {
     text-decoration: underline;
-    color: var(--color-blue);   
+    color: var(--color-blue);
 }
 
 .title {
@@ -133,5 +134,11 @@ a:hover {
     width: 246px;
     height: 246px;
 }
+
+.card-sexo {
+    
+}
+
+
 
 

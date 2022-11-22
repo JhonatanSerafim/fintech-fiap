@@ -38,7 +38,7 @@ body {
 }
 
 .card-group {
-    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .card-group>label {
@@ -96,7 +96,7 @@ a:hover {
 
 .title {
     color: var(--color-primary);
-    padding: 25px;
+    padding: 10px;
 }
 
 .description {
@@ -106,12 +106,15 @@ a:hover {
 
 .card-sexo {
     width: 100%;
-    color: #fcf6f6;
-    display: block;
-    padding-top: 15px;
-    padding: 5px;
-    padding-top: 15px;
-    padding-inline-start: 15px;
+    color: var(--color-white);
+
+    display: flex;
+    flex: direction;
+    justify-content: space-around;
+}
+
+.mid-title {
+    color: var(--color-white);
 }
 
 .card-menu {
@@ -133,10 +136,6 @@ a:hover {
 .card-top>img {
     width: 246px;
     height: 246px;
-}
-
-.card-sexo {
-    
 }
 
 

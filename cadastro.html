@@ -15,120 +15,44 @@
         <div class="card">
             <div class="card-top">
                 <img class="imglogin" src="./assets/img/favicon.png" alt="">
-                <h2>Cadastro</h2>
+                <h2 class="title">Cadastro</h2>
             </div>
             <div class="card-group">
                 <label for="nome">Nome:</label>
                 <input type="text" size="40" placeholder="Nome Completo" required>
                 <label for="cpf">CPF:</label>
-                <input type="text" placeholder="000.000.000-00" required>
+                <input type="text" placeholder="Digite o número" required>
                 <label for="rg">RG:</label>
-                <input type="text" placeholder="00.000.000-2" name="" id="">
+                <input type="text" placeholder="Digite o número" name="" id="">
                 <label for="email">Email:</label>
-                <input type="text" size="40" placeholder="Email Valido" name="" id="" required>z
+                <input type="text" size="40" placeholder="Email Valido" name="email" id="email" required>
+                <label for="senha">Senha:</label>
+                <input type="password" size="40" placeholder="Digite uma senha" name="senha" id="senha" required>z
             </div>
-            <div class="card-sexo">
-                <p>Sexo</p>
-                
-                <input type="radio"id="feminino" name="genero" value="feminino" required>
-                <label for="feminino">Feminino</label>
-                
-                <input type="radio" id="masculino" name="genero" value="masculino" required>
-                <label for="masculino">Masculino</label>
-                
-                <input type="radio" id="outro" name="genero" value="outro" required>
-                <label for="outro">Outro</label>
+            <div class="card-group">
+                <p class="mid-title">Sexo</p>
+                <div class="card-sexo">
+                    <input type="radio"id="feminino" name="genero" value="feminino" required>
+                    <label for="feminino">Feminino</label>
+                    
+                    <input type="radio" id="masculino" name="genero" value="masculino" required>
+                    <label for="masculino">Masculino</label>
+                    
+                    <input type="radio" id="outro" name="genero" value="outro" required>
+                    <label for="outro">Outro</label>
+            </div>
                 
             </div>
 
             <div class="card-group">
-                <input type="date" name="data_nascimento" id="data_nascimento">
                 <label for="data_nascimento">Data de Nascimento</label>
+                <input type="date" name="data_nascimento" id="data_nascimento"> 
             </div>
 
-            <div class="card-group">
-                <h2>Endereço</h2><br><br>
-                <label >Estado:</label><br><br>
+            <div class="card-group btn">
+                <button type="submit"><a href="menuCarro.html" class="btn">CADASTRAR</a></button>
             </div>
-            <div class="card-estado">
-                <select form="card-estado" name="estado" id="uf"><br>
-                    <option value="0">Escolha sua Regiao</option><br><br>
-                    <optgroup label="Norte"></optgroup>
-                    <option value="1">Acre</option>
-                    <option value="2">Amazonas</option>
-                    <option value="3">Amapa</option>
-                    <option value="4">Pará</option>
-                    <option value="5">Rondonia</option>
-                    <option value="6">Raraima</option>
-                    <option value="7">Tocantins</option>
-
-                    <optgroup label="Nordeste"></optgroup>
-                    <option value="8">Alagoas</option>
-                    <option value="9">Bahia</option>
-                    <option value="10">Ceara</option>
-                    <option value="11">Maranhao</option>
-                    <option value="12">Piaui</option>
-                    <option value="13">Pernambuco</option>
-                    <option value="14">Paraiba</option>
-                    <option value="15">Rio Grande do Norte</option>
-                    <option value="16">Sergipe</option>
-
-
-                    <optgroup label="Sudeste"></optgroup>
-                    <option value="17">Espeito Santo </option>
-                    <option value="18">Minas Gerais</option>
-                    <option value="19">Rio de Janeiro</option>
-                    <option value="20">São Paulo</option>
-
-                    <optgroup label="Centro-Oeste"></optgroup>
-                    <option value="21">Goias </option>
-                    <option value="22">Mato Grosso</option>
-                    <option value="23">Mato Grosso Do Sul</option>
-                    <option value="24">Distrito Federal</option>
-
-                    <optgroup label="Sul"></optgroup>
-                    <option value="25">Paraná</option>
-                    <option value="26">Rio Grande do Sul</option>
-                    <option value="27">Santa Catarina</option>
-
-
-                </select>
-
-                <div class="card-group">
-                    <label for="cidade">Cidade</label>
-                    <input type="text" placeholder="Cidade">
-
-                    <label for="nu">Numero:</label>
-                    <input type="text" size="5" placeholder="Numero"><br><br>
-
-                    <label for="cep">CEP:</label>
-                    <input type="text" placeholder="04849663">
-                </div>
-                <div class="card-estado">
-                    <label for="cep">CEP:</label>
-                    <input type="text" placeholder="04849663">
-                </div>
-                <div class="card-estado">
-                    <label for="bairro">BAIRRO:</label>
-                    <input type="text" placeholder="Bairro">
-                </div>
-                <div class="card-estado">
-                    <label for="rua">RUA:</label>
-                    <input type="text" size="30" placeholder="logradura">
-                </div>
-                <div class="card-estado">
-                    <label for="nu">Numero:</label>
-                    <input type="text" size="5" placeholder="Numero"><br><br>
-                </div>
-                <div class="card-estado">
-                    <label for="comp">Complemento:</label>
-
-                    <input type="text" size="30" placeholder="andar, Apartamento, Bloco">
-                    <div class="card-group">
-                    <button><a href="modo.html" class="btn"> Cadastrar</a></button>
-                </div>
-            </div>
-
+        </div>
     </form>
 </body>
 
